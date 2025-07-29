@@ -1,0 +1,239 @@
+<!-- ✅ CYBERSECURITY PORTFOLIO — COMPLETE HTML START -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> PORTFOLIO | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- 🌐 Navigation -->
+<header>
+  <div class="navbar">
+    <div class="logo">WELCOME TO My PORTFOLIO</div>
+    <nav>
+        <button id="theme-toggle" title="Toggle Light/Dark Mode">🌓</button>
+
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact-footer">Contact</a></li>
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- ✅ HERO SECTION -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1> SAYAK DAS</h1>
+      <p class="typing">SOC Blue Team Defender | Cybersecurity Analyst | Security Operations</p>
+    </div>
+  </section>
+
+  <!-- ✅ ABOUT ME SECTION -->
+  <section id="about">
+    <h2>👨‍💻 About Me</h2>
+    <p>
+      I’m a self-taught cybersecurity learner building skills through TryHackMe, Cisco Skills for All, YouTube, and Coursera.
+      I focus on SOC operations, log analysis, SIEM tools, and the MITRE ATT&CK framework. I enjoy Linux environments, network monitoring,
+      and sharing knowledge. My goal is to become a SOC Analyst and contribute to the InfoSec community through projects and education.
+    </p>
+  </section>
+
+  <!-- ✅ SKILLS SECTION -->
+  <section id="skills">
+    <h2>🛠️ Skills</h2>
+    <div class="skills-grid">
+      <details>
+        <summary>🔍 SOC Operations</summary>
+        <ul>
+          <li>Log Analysis</li>
+          <li>SIEM (Splunk, ELK)</li>
+          <li>MITRE ATT&CK</li>
+        </ul>
+      </details>
+      <details>
+        <summary>🧰 Tools & Scripting</summary>
+        <ul>
+          <li>Bash / PowerShell / Python</li>
+          <li>Wireshark, Sysmon, Sigma</li>
+        </ul>
+      </details>
+      <details>
+        <summary>🕵️ OSINT & Forensics</summary>
+        <ul>
+          <li>Memory & Disk Forensics</li>
+          <li>OSINT Investigation</li>
+        </ul>
+      </details>
+      <details>
+        <summary>☁️ Cloud Security</summary>
+        <ul>
+          <li>Azure & AWS Defense</li>
+          <li>DevSecOps Practices</li>
+        </ul>
+      </details>
+    </div>
+  </section>
+
+  <!-- ✅ PROJECTS SECTION -->
+  <section id="projects">
+    <h2>📁 Projects</h2>
+
+    <!-- ✅ Active Projects -->
+    <div class="project-subsection">
+      <h3>🧪 Hands-On Labs</h3>
+      <div class="project-grid">
+        <div class="project-card">
+          <h4>🧠 Splunk Log Analysis</h4>
+          <p>Detected threats using real log data with SPL queries.</p>
+        </div>
+        <div class="project-card">
+          <h4>🧪 Windows Forensics</h4>
+          <p>Analyzed compromised host artifacts using Volatility & Event Logs.</p>
+        </div>
+        <div class="project-card">
+          <h4>📄 Log Analysis</h4>
+          <p>Found IOCs in server logs and correlated SIEM alerts.</p>
+        </div>
+        <div class="project-card">
+          <h4>🧑‍💼 AD Attacks & Defense</h4>
+          <p>Simulated pass-the-hash, kerberoasting & mitigated AD attacks.</p>
+        </div>
+        <div class="project-card">
+          <h4>🔍 Security Assessments</h4>
+          <p>Performed asset discovery, misconfig analysis, and policy reviews.</p>
+        </div>
+        <div class="project-card">
+          <h4>💣 Malware Analysis</h4>
+          <p>Dissected samples to understand persistence and obfuscation.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ✅ TryHackMe Projects -->
+    <div class="project-subsection">
+      <h3>🧠 TryHackMe Projects</h3>
+      <div class="project-grid">
+        <div class="project-card">
+          <h4>🔹 SOC Level 1</h4>
+          <p>Investigated alerts, extracted IOCs, triaged incidents.</p>
+        </div>
+        <div class="project-card">
+          <h4>🔹 SOC Level 2</h4>
+          <p>Hunted advanced threats using Sigma & Splunk queries.</p>
+        </div>
+        <div class="project-card">
+          <h4>🔹 Jr. Penetration Tester</h4>
+          <p>Performed recon, exploitation & vulnerability analysis.</p>
+        </div>
+        <div class="project-card">
+          <h4>🔹 Security Engineer</h4>
+          <p>Hardened systems, wrote detection rules, improved posture.</p>
+        </div>
+        <div class="project-card">
+          <h4>🔹 DevSecOps</h4>
+          <p>Implemented secure CI/CD pipelines and scanned containers.</p>
+        </div>
+        <div class="project-card">
+          <h4>🔹 Web Application Pentesting</h4>
+          <p>Identified XSS, SQLi, IDOR in web apps through hands-on labs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ CERTIFICATIONS SECTION -->
+  <section id="certifications">
+    <h2>🎓 Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-card"><h3>TryHackMe – SOC Level 1</h3></div>
+      <div class="cert-card"><h3>TryHackMe – SOC Level 2</h3></div>
+      <div class="cert-card"><h3>TryHackMe – Jr. Penetration Tester</h3></div>
+      <div class="cert-card"><h3>TryHackMe – Security Engineer</h3></div>
+      <div class="cert-card"><h3>TryHackMe – DevSecOps</h3></div>
+      <div class="cert-card"><h3>TryHackMe – Web Application Pentesting</h3></div>
+      <div class="cert-card full-width">
+        <h3>📘 Blue Team Security Courses</h3>
+        <p>Includes Forensics, Threat Hunting, OSINT, VM, Network Analysis, etc.</p>
+      </div>
+    </div>
+  </section>
+  <!-- 💼 Internship Experience -->
+<section id="experience">
+  <h2>💼 Experience</h2>
+  <div class="experience-grid">
+    <!-- TryHackMe Practical Experience Card (you already have this if added before) -->
+
+    <!-- Internship Card -->
+    <div class="exp-card">
+      <h3>Software Engineer Intern – Exposys Data Labs</h3>
+      <p><strong>Oct 2022 – Nov 2023</strong></p>
+      <ul>
+        <li>Developed a real-time chat app using HTML, Node.js, and React.</li>
+        <li>Optimized load time by 15% and improved scalability by 20%.</li>
+        <li>Reduced response time to under 200ms.</li>
+        <li>Fixed 20+ bugs and enhanced reliability with input validation.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <!-- 🧑‍💼 Virtual Experience Programs -->
+<section id="virtual-experience">
+  <h2>🧑‍💼 Virtual Experience Programs (Forage – 2025)</h2>
+  <div class="virtual-grid">
+    <div class="cert-card"><h3>Deloitte – Cyber Job Simulation</h3></div>
+    <div class="cert-card"><h3>Tata – Cybersecurity Analyst</h3></div>
+    <div class="cert-card"><h3>Mastercard – Cybersecurity Program</h3></div>
+    <div class="cert-card"><h3>AIG – Shields Up Program</h3></div>
+  </div>
+</section>
+<<!-- 📬 Contact Section -->
+
+<div class="contact-buttons">
+  <a href="#top" class="contact-btn">🔼 Back to Top</a>
+</div>
+</section>
+
+<!-- 🌐 Footer -->
+<footer id="contact-footer">
+
+  <div class="footer-icons">
+    <a href="mailto:sayakdas0210@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://linkedin.com/in/sayak-das-737371221" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/Sayak-D" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://tryhackme.com/profile/4900324" title="TryHackMe" target="_blank"><i class="fas fa-user-secret"></i></a>
+  </div>
+  <p>&copy; 2025 Sayak Das | All Rights Reserved</p>
+</footer>
+
+<script>
+  const toggleButton = document.getElementById('theme-toggle');
+  const body = document.body;
+
+  // Load stored theme
+  if (localStorage.getItem('theme') === 'light') {
+    body.classList.add('light-mode');
+  }
+
+  toggleButton.addEventListener('click', () => {
+    body.classList.toggle('light-mode');
+    const isLight = body.classList.contains('light-mode');
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+  });
+</script>
+
+</body>
+</html>
+<!-- ✅ END HTML -->
